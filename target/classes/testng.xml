@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestCalcWebService" verbose="10">
+
+<test name="Test addition and subtraction">  
+
+<classes>
+	<class name="webService.CalcTest.TestCalc"/>				
+	
+</classes>
+</test>
+	</suite>

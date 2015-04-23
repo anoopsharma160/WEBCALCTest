@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [TestCalcWebService]">
+  <test name="Test addition and subtraction(failed)">
+    <classes>
+      <class name="webService.CalcTest.TestCalc">
+        <methods>
+          <include name="testSub"/>
+          <include name="testAdd"/>
+        </methods>
+      </class> <!-- webService.CalcTest.TestCalc -->
+    </classes>
+  </test> <!-- Test addition and subtraction(failed) -->
+</suite> <!-- Failed suite [TestCalcWebService] -->
